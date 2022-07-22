@@ -1,2 +1,5 @@
-# ML-IDA-1---final-project
-My final project for the SoSe 2022 ML/IDA 1 course.
+# ML/IDA 1: Project 2 -- Fire in the ***Montesinho*** Nature Park
+
+## Repo Structure
+
+## Problem Setting
