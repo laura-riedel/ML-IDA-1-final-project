@@ -3,3 +3,5 @@
 ## Repo Structure
 
 ## Problem Setting
+
+## Requirements / What I have been working with
