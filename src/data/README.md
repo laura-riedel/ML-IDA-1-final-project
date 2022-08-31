@@ -37,7 +37,7 @@
     - values: 0.0-6.4
 12. area:
     - forest area that has been burnt in hectare
-    - values: 0.09-1090.84
+    - values: 0.00-1090.84
 
 ## According to https://www.nwcg.gov/publications/pms437/cffdrs/fire-weather-index-system :
 
@@ -45,9 +45,14 @@
 
 **The Fine Fuel Moisture Code (FFMC)** represents fuel moisture of forest litter fuels under the shade of a forest canopy. It is intended to represent moisture conditions for shaded litter fuels, the equivalent of 16-hour timelag. It ranges from 0-101. Subtracting the FFMC value from 100 can provide an estimate for the equivalent (approximately 10h) fuel moisture content, most accurate when FFMC values are roughly above 80.
 
-**The Duff Moisture Code (DMC)** represents fuel moisture of decomposed organic material underneath the litter. System designers suggest that it is represents moisture conditions for the equivalent of 15-day (or 360 hr) timelag fuels. It is unitless and open ended. It may provide insight to live fuel moisture stress.
+**The Duff Moisture Code (DMC)** represents fuel moisture of decomposed organic material underneath the litter. System designers suggest that it represents moisture conditions for the equivalent of 15-day (or 360 hr) timelag fuels. It is unitless and open ended. It may provide insight to live fuel moisture stress.
 
 **The Drought Code (DC)**, much like the Keetch-Byrum Drought Index, represents drying deep into the soil. It approximates moisture conditions for the equivalent of 53-day (1272 hour) timelag fuels. It is unitless, with a maximum value of 1000. Extreme drought conditions have produced DC values near 800.
 
 ### Fire Behaviour Indices:
 **The Initial Spread Index (ISI)** is analogous to the NFDRS Spread Component (SC). It integrates fuel moisture for fine dead fuels and surface windspeed to estimate a spread potential. ISI is a key input for fire behavior predictions in the FBP system. It is unitless and open ended.
+
+### According to http://factsheets.okstate.edu/e1010/sections/fuel-moisture/ :
+
+Dead fuels are those wildland fuels whose moisture contents are controlled exclusively by changing weather conditions. 
+For purposes of fire behavior modeling, dead fuels are divided into four “timelag” categories: 1-hour, 10-hour, 100-hour, and 1000-hour fuels. The shorter the timelag, the more responsive the fuel is to changing weather conditions. For Example 1-hour fuels only take on the order of one hour to respond to changing weather conditions, which explains why fire danger can be very high even right after a heavy rain if the subsequent weather conditions allow the 1-hour fuels to dry out.
