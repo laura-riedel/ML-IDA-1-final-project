@@ -5,10 +5,11 @@ The administration of the nature park Montesinho in north-east Portugal wants to
 You have been asked to develop a model that predicts the burnt forest area as accurately as possible from the given data.
 
 ## Repo Structure
-- data:
-    - fires.csv: the data
-    - README.md: explanation of features in database
+- documents: task description, additional literature
 - src:
+    - data:
+        - fires.csv: the data
+        - README.md: explanation of features in database
     - additional_functions.py: outsourced functions for cleaner looking notebooks
     - data_exploration.ipynb: notebook exploring the data + finding preprocessing steps
     - models.ipynb: notebook implementing + comparing models
